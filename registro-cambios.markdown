@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Registro de cambios
+opciones: [
+  { link: "registro-cambios#pendiente-de-liberación", name: "Pendiente de liberación" },
+  { link: "registro-cambios#20200804", name: "2020.08.04" }
+]
 ---
 # Registro de cambios
 ---
