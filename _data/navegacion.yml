@@ -1,2 +1,3 @@
-- name: Registro de cambios
-  link: /registro-cambios
+- link: registro-cambios
+  nombre: Registro de cambios
+  

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Registro de cambios
-opciones: [
-  { link: "registro-cambios#pendiente-de-liberación", name: "Pendiente de liberación" },
-  { link: "registro-cambios#20200804", name: "2020.08.04" }
+navegacion: [
+{ link: "registro-cambios#20200826", nombre: "2020.08.26" },
+{ link: "registro-cambios#20200804", nombre: "2020.08.04" }
 ]
 ---
 # Registro de cambios
@@ -15,12 +15,19 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 ### Agregado
-- Proceso de conforme de ordenes de retiro.
 - Modulo de seguimiento de paletas.
-- **`[Calico Chile]`** Interfaz particular que envia informe Excel por correo electronico de stock y kardex no seriado de DirecTv.
+- Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor
+- **`[Calico Argentina]`** Seguimiento de interfaces con [Wirsolut](https://www.wirsolut.com/) desde monitor.
+
+## 2020.08.26
+---
+### Agregado
+- Proceso de conforme de ordenes de retiro.
+- Maestro de tipos de paleta.
+- **`[Calico Chile]`** Interfaz particular que envía informe Excel por correo electrónico de stock y kardex no seriado de DirecTv.
 
 ### Modificado
-- Los datos de vehiculo y chofer en el ingreso de turnos son de carga libre y no se validan contra los maestros del modulo de flota.
+- Los datos de vehículo y chofer en el ingreso de turnos son de carga libre y no se validan contra los maestros del modulo de flota.
 
 ## 2020.08.04
 ---
@@ -30,6 +37,11 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - La carga de viajes completa el origen y destino del viaje con la sucursal en la que esta logueado el usuario si el tipo de viaje seleccionado tiene retorno.
 - La empresa de transporte permite configurar si se mostrara el valor del viaje en los reportes.
 - El reporte impreso estándar de viajes muestra el valor del viaje dependiendo de la parametrización de la empresa de transporte.
-- **`[Calyco Uruguay]`** El reporte impreso particual de viajes muestra fecha y hora estimada de carga del viaje.
-- **`[Calyco Uruguay]`** El reporte impreso particual de viajes muestra la observación del viaje.
-- **`[Calyco Uruguay]`** El reporte impreso particual de liquidación de transportistas muestra el rango de fechas de emisión utilizadas en el filtro de la consulta de viajes.
+- **`[Calyco Uruguay]`** El reporte impreso particular de viajes muestra fecha y hora estimada de carga del viaje.
+- **`[Calyco Uruguay]`** El reporte impreso particular de viajes muestra la observación del viaje.
+- **`[Calyco Uruguay]`** El reporte impreso particular de liquidación de transportistas muestra el rango de fechas de emisión utilizadas en el filtro de la consulta de viajes.
+
+### Correcciones
+- Selección de roles en pantalla de carga de usuario.
+- Mejoras de performance en inicio masivo de viajes.
+- Mejoras de performance en valorización masiva de viajes. 
