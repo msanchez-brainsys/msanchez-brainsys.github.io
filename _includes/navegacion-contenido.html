@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="navbar-nav mr-auto">
+    {% for item in page.navegacion.contenido %}
+    <a class="nav-item nav-link" href="{{item.link}}">{{ item.nombre }}</a>
+    {% endfor %}
+  </div>
+  {% if page.navegacion.versiones %}
+  <div class="navbar-nav">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownVersiones" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Versiones
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownVersiones">
+        {% for item in page.navegacion.versiones %}
+        <a class="dropdown-item" href="{{item.link}}">{{ item.nombre }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</nav>

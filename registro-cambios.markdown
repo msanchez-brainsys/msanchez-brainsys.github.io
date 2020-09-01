@@ -1,11 +1,18 @@
 ---
 layout: default
 title: Registro de cambios
-navegacion: [
-{ link: "registro-cambios#20200826", nombre: "2020.08.26" },
-{ link: "registro-cambios#20200804", nombre: "2020.08.04" }
-]
+navegacion:
+  contenido:
+    - nombre: "Pendiente de liberación"
+      link: "registro-cambios#pendiente-de-liberación"
+  versiones:
+    - nombre: "2020.08.31"
+      link: "registro-cambios#20200831"
+    - nombre: "2020.08.04"
+      link: "registro-cambios#20200804"     
 ---
+{% include navegacion.html %}
+{% include navegacion-contenido.html %}
 # Registro de cambios
 ---
 En este archivo se documentaran todo los cambios notables liberados en cada versión.
@@ -19,12 +26,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor
 - **`[Calico Argentina]`** Seguimiento de interfaces con [Wirsolut](https://www.wirsolut.com/) desde monitor.
 
-## 2020.08.26
+## 2020.08.31
 ---
 ### Agregado
 - Proceso de conforme de ordenes de retiro.
+- Optimización de performance de pantalla de muelles.
 - Maestro de tipos de paleta.
-- **`[Calico Chile]`** Interfaz particular que envía informe Excel por correo electrónico de stock y kardex no seriado de DirecTv.
+- Carga de paletas utilizadas por muelles.
 
 ### Modificado
 - Los datos de vehículo y chofer en el ingreso de turnos son de carga libre y no se validan contra los maestros del modulo de flota.

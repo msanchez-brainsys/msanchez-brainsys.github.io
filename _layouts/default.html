@@ -22,34 +22,6 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">
-      <img src="assets/images/logo.png" width="210" height="54" class="d-inline-block align-top" alt="" loading="lazy">
-    </a>
-    <div class="navbar-nav">
-      {% for item in site.data.navegacion %}
-      <a class="nav-item nav-link" href="{{item.link}}">{{ item.nombre }}</a>
-      {% endfor %}
-    </div>
-  </nav>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="navbar-nav mr-auto">
-      <a class="nav-item nav-link" href="registro-cambios#pendiente-de-liberación">Pendiente de liberación</a>
-    </div>
-    <div class="navbar-nav">
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownVersiones" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Versiones
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownVersiones">
-          {% for item in page.navegacion %}
-          <a class="dropdown-item" href="{{item.link}}">{{ item.nombre }}</a>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </nav>
   {{ content }}
 </body>
 
