@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2020.09.11"
+      link: "registro-cambios#20200911"
     - nombre: "2020.08.31"
       link: "registro-cambios#20200831"
     - nombre: "2020.08.04"
@@ -26,15 +28,23 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor
 - **`[Calico Argentina]`** Seguimiento de interfaces con [Wirsolut](https://www.wirsolut.com/) desde monitor.
 
+## 2020.09.11
+---
+### Agregado
+- Carga de paletas utilizadas por viajes.
+
+### Modificado
+- Optimización de performance de pantalla de viajes.
+
 ## 2020.08.31
 ---
 ### Agregado
 - Proceso de conforme de ordenes de retiro.
-- Optimización de performance de pantalla de muelles.
 - Maestro de tipos de paleta.
 - Carga de paletas utilizadas por muelles.
 
 ### Modificado
+- Optimización de performance de pantalla de muelles.
 - Los datos de vehículo y chofer en el ingreso de turnos son de carga libre y no se validan contra los maestros del modulo de flota.
 
 ## 2020.08.04
