@@ -31,7 +31,7 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ### Agregado
 - Carga de paletas utilizadas por viajes.
 - Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor.
-- Proceso automatico de movimiento de archivos entre directorios.
+- Proceso automático de movimiento de archivos entre directorios.
 
 ### Modificado
 - Optimización de performance de pantalla de viajes.
