@@ -6,8 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
-    - nombre: "2020.09.11"
-      link: "registro-cambios#20200911"
+    - nombre: "2020.09.18"
+      link: "registro-cambios#20200918"
     - nombre: "2020.08.31"
       link: "registro-cambios#20200831"
     - nombre: "2020.08.04"
@@ -25,16 +25,23 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ---
 ### Agregado
 - Modulo de seguimiento de paletas.
-- Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor
-- **`[Calico Argentina]`** Seguimiento de interfaces con [Wirsolut](https://www.wirsolut.com/) desde monitor.
 
-## 2020.09.11
+## 2020.09.18
 ---
 ### Agregado
 - Carga de paletas utilizadas por viajes.
+- Seguimiento de interfaces con [OptimoCamino](https://www.optimocamino.com/) desde monitor.
+- Proceso automatico de movimiento de archivos entre directorios.
 
 ### Modificado
 - Optimización de performance de pantalla de viajes.
+- El reporte impreso estándar de viajes muestra paletas utilizadas.
+- El reporte impreso estándar de hojas de ruta muestra paletas utilizadas.
+- **`[Calico Argentina]`** El reporte impreso particular de viajes muestra paletas utilizadas.
+- **`[Calico Argentina]`** El reporte impreso particular de hojas de ruta muestra paletas utilizadas.
+
+### Quitado
+- Finalización automática de viajes.
 
 ## 2020.08.31
 ---
