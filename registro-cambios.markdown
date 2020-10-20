@@ -6,8 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
-    - nombre: "2020.09.18"
-      link: "registro-cambios#20200918"
+    - nombre: "2020.09.30"
+      link: "registro-cambios#20200930"
     - nombre: "2020.08.31"
       link: "registro-cambios#20200831"
     - nombre: "2020.08.04"
@@ -24,9 +24,15 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 ### Agregado
-- Modulo de seguimiento de paletas.
+- **`[Muelles]`** Filtro por muelles automáticos en consulta de muelles.
+- **`[Muelles]`** Visualización de muelles automáticos en grilla de muelles.
+- **`[Retiros]`** Listado de comprobantes asociados a retiro en detalle de grilla.
+- **`[Retiros]`** Reporte impreso de prorrateos de viaje.
+- **`[Retiros]`** Calculo de prorrateos de comprobantes.
+- **`[Retiros]`** Calculo de prorrateos de retiros.
+- **`[Retiros]`** Calculo de prorrateos de comprobantes asociados a retiros.
 
-## 2020.09.18
+## 2020.09.30
 ---
 ### Agregado
 - Carga de paletas utilizadas por viajes.
@@ -69,4 +75,4 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ### Correcciones
 - Selección de roles en pantalla de carga de usuario.
 - Mejoras de performance en inicio masivo de viajes.
-- Mejoras de performance en valorización masiva de viajes. 
+- Mejoras de performance en valorización masiva de viajes.
