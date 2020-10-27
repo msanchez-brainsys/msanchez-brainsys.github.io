@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2020.10.26"
+      link: "registro-cambios#20201026"
     - nombre: "2020.09.30"
       link: "registro-cambios#20200930"
     - nombre: "2020.08.31"
@@ -23,14 +25,19 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+
+## 2020.10.26
+---
 ### Agregado
-- **`[Muelles]`** Filtro por muelles automáticos en consulta de muelles.
-- **`[Muelles]`** Visualización de muelles automáticos en grilla de muelles.
-- **`[Retiros]`** Listado de comprobantes asociados a retiro en detalle de grilla.
-- **`[Retiros]`** Reporte impreso de prorrateos de viaje.
-- **`[Retiros]`** Calculo de prorrateos de comprobantes.
-- **`[Retiros]`** Calculo de prorrateos de retiros.
-- **`[Retiros]`** Calculo de prorrateos de comprobantes asociados a retiros.
+- Filtro por muelles automáticos en consulta de muelles.
+- Visualización de muelles automáticos en grilla de muelles.
+- Listado de comprobantes asociados a retiro en detalle de grilla.
+- Reporte impreso de prorrateos de viaje.
+- Calculo de prorrateos de comprobantes.
+- Calculo de prorrateos de retiros.
+- Calculo de prorrateos de comprobantes asociados a retiros.
+- Interfaz estándar de envío de informes por correo electrónico.
+- Configuración de informe por correo electrónico al ejecutar interfaz de movimiento de archivos entre directorios.
 
 ## 2020.09.30
 ---
