@@ -25,19 +25,41 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+### Agregado
+- Indicadores visuales de totales asignados a muelle.
+- Indicadores visuales de totales asignados a viaje.
+- Configuración de formatos en importador Excel.
+- Configuración de validación de emisión de hojas de ruta en viajes iniciados segun tipo de viaje.
+- Configuración de validación de inicio de viaje con paletas asignadas segun tipo de viaje.
+- Configuración de validación de finalización de viajes con rendición de paletas segun tipo de viaje.
+
+### Modificado
+- Mejora de usabilidad en caga de paletas utilizadas por muelle.
+- Mejora de usabilidad en caga de paletas utilizadas por viajes.
 
 ## 2020.10.26
 ---
 ### Agregado
+- Filtro por ordenes de retiro con comprobantes asignados en consulta de ordenes de retiro.
+- Visualización de ordenes de retiro con comprobantes asignados en grilla de ordenes de retiro.
 - Filtro por muelles automáticos en consulta de muelles.
 - Visualización de muelles automáticos en grilla de muelles.
+- Visualización de comprobantes asociados a retiros en detalle de grillas de ordenes de retiro.
 - Listado de comprobantes asociados a retiro en detalle de grilla.
+- Reporte impreso de extra costos.
 - Reporte impreso de prorrateos de viaje.
 - Calculo de prorrateos de comprobantes.
 - Calculo de prorrateos de retiros.
 - Calculo de prorrateos de comprobantes asociados a retiros.
 - Interfaz estándar de envío de informes por correo electrónico.
 - Configuración de informe por correo electrónico al ejecutar interfaz de movimiento de archivos entre directorios.
+
+### Modificado
+- Leyendas de fechas mas descriptivas en reporte impreso de adicionales de viajes.
+
+### Corregido
+- Reporte impreso de planillas desfasado al mostrar comprobantes con observaciones muy extensas.
+- Filtro de hojas de rutas en viaje devuelve hojas de ruta conformes.
 
 ## 2020.09.30
 ---
