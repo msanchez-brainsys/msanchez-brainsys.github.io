@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2020.11.20"
+      link: "registro-cambios#20201120"
     - nombre: "2020.10.26"
       link: "registro-cambios#20201026"
     - nombre: "2020.09.30"
@@ -26,16 +28,33 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 ### Agregado
-- Indicadores visuales de totales asignados a muelle.
-- Indicadores visuales de totales asignados a viaje.
-- Configuración de formatos en importador Excel.
 - Configuración de validación de emisión de hojas de ruta en viajes iniciados segun tipo de viaje.
 - Configuración de validación de inicio de viaje con paletas asignadas segun tipo de viaje.
 - Configuración de validación de finalización de viajes con rendición de paletas segun tipo de viaje.
 
+# 2020.11.20
+---
+### Agregado
+- Indicadores visuales de totales asignados a muelle.
+- Indicadores visuales de totales asignados a viaje.
+- Configuración de formatos en importador Excel.
+- Fecha de creación en pantalla de retiros.
+- Totales en pantalla de retiros.
+- **`[Cic]`** Ingreso y modificación de subclientes desde servicio web.
+- **`[Cic]`** Ingreso y modificación de productos desde servicio web.
+- **`[Intralog]`** Ingreso de pedidos dese archivos EDI.
+- **`[Intralog]`** Informe de pedidos en archivos EDI.
+- **`[Klo]`** Ingreso de pedidos desde Excel con formato particular.
+
 ### Modificado
 - Mejora de usabilidad en caga de paletas utilizadas por muelle.
 - Mejora de usabilidad en caga de paletas utilizadas por viajes.
+- Mejoras de performance en pantalla de hojas de ruta.
+- Valorización de viajes solo al iniciar.
+- Creación y modificación de viajes sin calculo de totales.
+- Numeración de viajes no bloqueante.
+- Carga de devolución con marca en vale de recepción.
+- **`[Calico Argentina]`** Reporte impreso de viajes estándar sin extra costo.
 
 ## 2020.10.26
 ---
