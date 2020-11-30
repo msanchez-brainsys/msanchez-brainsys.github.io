@@ -28,11 +28,16 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 ### Agregado
-- Configuración de validación de emisión de hojas de ruta en viajes iniciados segun tipo de viaje.
-- Configuración de validación de inicio de viaje con paletas asignadas segun tipo de viaje.
-- Configuración de validación de finalización de viajes con rendición de paletas segun tipo de viaje.
+- Consulta de retiros por número de viaje.
+- Carga de tipos de adicionales repetidos.
+- Configuración de validación de emisión de hojas de ruta en viajes iniciados según tipo de viaje.
+- Configuración de validación de inicio de viaje con paletas asignadas según tipo de viaje.
+- Configuración de validación de finalización de viajes con rendición de paletas según tipo de viaje.
 
-# 2020.11.20
+### Modificado
+- Calculo de reglas de tipos de adicional por tipo de unidad de acoplado.
+
+## 2020.11.20
 ---
 ### Agregado
 - Indicadores visuales de totales asignados a muelle.
