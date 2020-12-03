@@ -60,6 +60,9 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Numeración de viajes no bloqueante.
 - Carga de devolución con marca en vale de recepción.
 - **`[Calico Argentina]`** Reporte impreso de viajes estándar sin extra costo.
+- **`[Calico Argentina]`** Reporte impreso de viajes estándar sin columna de paletas.
+- **`[Calico Argentina]`** Reporte impreso de viajes estándar con calculo de medidas a paritr de comprobantes asignados a hojas de ruta.
+- **`[Calico Argentina]`** Reporte impreso de hojas de ruta estándar sin columna de paletas.
 
 ## 2020.10.26
 ---
