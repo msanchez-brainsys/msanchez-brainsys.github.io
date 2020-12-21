@@ -33,6 +33,12 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Configuración de validación de emisión de hojas de ruta en viajes iniciados según tipo de viaje.
 - Configuración de validación de inicio de viaje con paletas asignadas según tipo de viaje.
 - Configuración de validación de finalización de viajes con rendición de paletas según tipo de viaje.
+- Configuración de topes en regla de adicionales.ñ
+- Filtro de transportes inactivos en carga de viajes
+
+### Modificado
+- Mejora de usabilidad en caga de paletas utilizadas por muelle.
+- Mejora de usabilidad en caga de paletas utilizadas por viajes.
 
 ## 2020.12.04
 ---
