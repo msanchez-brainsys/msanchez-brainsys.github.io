@@ -29,6 +29,10 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+
+
+## 2020.12.22
+---
 ### Agregado
 - Configuración de validación de emisión de hojas de ruta en viajes iniciados según tipo de viaje.
 - Configuración de validación de inicio de viaje con paletas asignadas según tipo de viaje.
