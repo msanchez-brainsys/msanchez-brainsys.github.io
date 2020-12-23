@@ -43,6 +43,7 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ### Modificado
 - Mejora de usabilidad en caga de paletas utilizadas por muelle.
 - Mejora de usabilidad en caga de paletas utilizadas por viajes.
+- Mejoras de performance en integraciones con [OptimoCamino](https://www.optimocamino.com/).
 
 ### Corregido
 - Redondeo a dos decimales en reporte impreso de adicionales.
