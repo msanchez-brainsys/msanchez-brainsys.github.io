@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2021.01.11"
+      link: "registro-cambios#20210111"
     - nombre: "2020.12.22"
       link: "registro-cambios#20201222"
     - nombre: "2020.12.04"
@@ -32,6 +34,14 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 
+## 2021.01.11
+---
+### Agregado
+- **`[Calico]`** Pantalla para emisión de reportes impresos de notas de devolución a partir de vales de recepción para cliente Telecentro.
+
+### Modificado
+- Registro de etapa al valorizar viaje.
+- Visualización de unidades en detalle de reporte impreso de notas de devolución.
 
 ## 2020.12.22
 ---
