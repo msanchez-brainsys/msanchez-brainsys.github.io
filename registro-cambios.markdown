@@ -41,7 +41,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ### Modificado
 - Registro de etapa al valorizar viaje.
+- Visualización de precio y extra costo en cero en reporte impreso estándar de viajes para viajes anulados.
+- Visualización de precio y extra costo en cero en reporte impreso de liquidación de viajes para viajes anulados.
+- Visualización de precio y extra costo en cero en reporte impreso de prorrateos de viajes para viajes anulados.
+- Visualización de precio y extra costo en cero en reporte Excel estándar de viajes para viajes anulados.
+- Visualización de precio y extra costo en cero en reporte Excel de liquidación de viajes para viajes anulados.
 - Visualización de unidades en detalle de reporte impreso de notas de devolución.
+- Visualización de unidades en detalle de reporte Excel de notas de devolución.
 
 ## 2020.12.22
 ---
