@@ -38,6 +38,8 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ---
 ### Agregado
 - **`[Calico]`** Pantalla para emisión de reportes impresos de notas de devolución a partir de vales de recepción para cliente Telecentro.
+- **`[Calico]`** Interfaz de ingreso de novedades para comprobantes de Telecentro.
+- **`[Calico]`** Interfaz de informe de correo electrónico para Raizen.
 
 ### Modificado
 - Registro de etapa al valorizar viaje.
