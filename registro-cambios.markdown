@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2021.02.12"
+      link: "registro-cambios#20210212"
     - nombre: "2021.01.11"
       link: "registro-cambios#20210111"
     - nombre: "2020.12.22"
@@ -33,6 +35,26 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+
+## 2021.02.12
+---
+### Agregado
+- **`[Plb]`** Tablero de seguimiento de turnos de carga.
+- **`[Plb]`** Tablero de seguimiento de turnos de descarga.
+- **`[Plb]`** Columna con cliente y remitente en pantalla de ingreso de turnos.
+- **`[Plb]`** Columna con cliente y remitente en pantalla de seguimiento de turnos.
+
+### Modificado
+- **`[Calico]`** Asignación de fecha de conforme en tabla TMS_DetalleComprobante al conformar un comprobante pendiente de resolución.
+- **`[Calico]`** Asignación de fecha de entrega en tabla TMS_DetalleComprobante al almacenar un comprobante.
+- **`[Calico]`** Observación por defecto "Retira cliente" al conformar comprobantes recibidos.
+- **`[Plb]`** Filtro por defecto con turnos activos en pantalla de ingreso de turnos.
+- **`[Plb]`** Filtro por defecto con turnos activos en pantalla de seguimiento de turnos.
+- **`[Plb]`** Estados de pedidos visualizados en pantalla de seguimiento turnos de carga.
+- **`[Plb]`** Estados de vales de recepción visualizados en pantalla de seguimiento turnos de descarga.
+
+### Corregido
+- Inicio de hojas de ruta no emitidas al iniciar viaje.
 
 ## 2021.01.11
 ---
