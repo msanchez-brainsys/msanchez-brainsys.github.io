@@ -35,6 +35,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+### Agregado
+- Control de paletas al finalizar viaje.
+
+### Modificado
+- Carga de clientes sin método de aforo.
+- Carga de comprobantes ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
+- Carga de solicitudes de retiro ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 
 ## 2021.02.12
 ---
