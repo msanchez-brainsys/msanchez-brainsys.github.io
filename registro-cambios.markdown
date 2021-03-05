@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2021.03.04"
+      link: "registro-cambios#20210304"
     - nombre: "2021.02.12"
       link: "registro-cambios#20210212"
     - nombre: "2021.01.11"
@@ -35,8 +37,12 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+
+## 2021.03.04
+---
 ### Agregado
 - Control de paletas al finalizar viaje.
+- Manejo de vales de proveedor.
 
 ### Modificado
 - Carga de clientes sin método de aforo.
