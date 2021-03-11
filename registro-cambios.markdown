@@ -43,11 +43,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ### Agregado
 - Control de paletas al finalizar viaje.
 - Manejo de vales de proveedor.
+- [Calico] Proceso de cambio de estado de comprobantes como recibidos para Telecentro.
 
 ### Modificado
 - Carga de clientes sin método de aforo.
 - Carga de comprobantes ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - Carga de solicitudes de retiro ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
+- [Calico] Logo de cliente en reporte de ordenes de trabajo de Telecentro.
 
 ## 2021.02.12
 ---
