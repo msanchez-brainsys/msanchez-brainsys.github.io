@@ -41,7 +41,9 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## 2021.03.04
 ---
 ### Agregado
-- Control de paletas al finalizar viaje.
+- Control de paletas rendidas al finalizar viaje.
+- Control de paletas debitadas a transportistas al finalizar viaje.
+- Control de paletas con vales de recupero al finalizar viaje.
 - Manejo de vales de proveedor.
 - **`[Calico]`** Proceso de cambio de estado de comprobantes como recibidos para Telecentro.
 
