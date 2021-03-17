@@ -48,6 +48,7 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - **`[Calico]`** Proceso de cambio de estado de comprobantes como recibidos para Telecentro.
 
 ### Modificado
+- Carga de remitentes con razón social repetida.
 - Carga de clientes sin método de aforo.
 - Carga de comprobantes ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - Carga de solicitudes de retiro ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
