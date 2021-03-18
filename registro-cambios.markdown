@@ -53,6 +53,8 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Carga de comprobantes ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - Carga de solicitudes de retiro ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - **`[Calico]`** Logo de cliente en reporte de ordenes de trabajo de Telecentro.
+- **`[Calico]`** Piso, departamento y teléfono de destino en reporte de ordenes de trabajo de Telecentro.
+- **`[Calico]`** Refactor de proceso de informe de líneas procesadas para Bianchi.
 
 ## 2021.02.12
 ---
