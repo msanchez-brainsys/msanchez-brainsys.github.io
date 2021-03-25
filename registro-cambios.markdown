@@ -37,6 +37,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+### Agregado
+- Creación de cartas de devolución a partir de comprobantes almacenados.
+- Anulación de cartas de devolución liberando comprobantes asociados.
+- Reporte impreso de cartas de devolución.
+- Reporte impreso de cartas de devolución resumido.
+- Reporte impreso de cartas de devolución detallado.
+- Reporte Excel de cartas de devolución.
 
 ## 2021.03.04
 ---
