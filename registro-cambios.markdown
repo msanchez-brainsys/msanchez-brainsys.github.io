@@ -60,6 +60,8 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Carga de comprobantes ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - Carga de solicitudes de retiro ingresando kilogramos y metros cúbicos si el cliente no tiene asignado un método de aforo.
 - **`[Calico]`** Deshabilitación de asignación de datos de transporte inactivos a viajes.
+- **`[Calico]`** Marca de agua en reporte impreso estandar de viajes con datos de transporte inactivos.
+- **`[Calico]`** Marca de agua en reporte impreso estandar de hojas de ruta con datos de transporte inactivos.
 - **`[Calico]`** Logo de cliente en reporte de ordenes de trabajo de Telecentro.
 - **`[Calico]`** Piso, departamento y teléfono de destino en reporte de ordenes de trabajo de Telecentro.
 - **`[Calico]`** Refactor de proceso de informe de líneas procesadas para Bianchi.
