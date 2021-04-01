@@ -52,7 +52,8 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Control de paletas debitadas a transportistas al finalizar viaje.
 - Control de paletas con vales de recupero al finalizar viaje.
 - Manejo de vales de proveedor.
-- Reporte Excel de paletas en retiro de recupero de paletas.
+- Nuevo tipo de retiro "Recupero de paletas" para manejo de retiros de recupero de paletas.
+- Reporte Excel de paletas a recuperar para retiros del tipo "Recupero de paletas".
 - **`[Calico]`** Proceso de cambio de estado de comprobantes como recibidos para Telecentro.
 
 ### Modificado
