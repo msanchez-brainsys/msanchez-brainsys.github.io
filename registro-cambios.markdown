@@ -38,12 +38,13 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## Pendiente de liberación
 ---
 ### Agregado
-- Creación de cartas de devolución a partir de comprobantes almacenados.
-- Anulación de cartas de devolución liberando comprobantes asociados.
-- Reporte impreso de cartas de devolución.
-- Reporte impreso de cartas de devolución resumido.
-- Reporte impreso de cartas de devolución detallado.
-- Reporte Excel de cartas de devolución.
+- **`[desarrollo]`** Creación de cartas de devolución a partir de comprobantes almacenados.
+- **`[desarrollo]`** Anulación de cartas de devolución liberando comprobantes asociados.
+- **`[desarrollo]`** Reporte impreso de cartas de devolución.
+- **`[desarrollo]`** Reporte impreso de cartas de devolución resumido.
+- **`[desarrollo]`** Reporte impreso de cartas de devolución detallado.
+- **`[desarrollo]`** Reporte Excel de cartas de devolución.
+- **`[anulacion]`** Validación de anulación de comprobantes que salieron en al menos un viaje.
 
 ## 2021.03.04
 ---
@@ -51,6 +52,7 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Control de paletas rendidas al finalizar viaje.
 - Control de paletas debitadas a transportistas al finalizar viaje.
 - Control de paletas con vales de recupero al finalizar viaje.
+- Pantalla de rendición de paletas en viajes iniciados o finalizados.
 - Manejo de vales de proveedor.
 - Nuevo tipo de retiro "Recupero de paletas" para manejo de retiros de recupero de paletas.
 - Reporte Excel de paletas a recuperar para retiros del tipo "Recupero de paletas".
