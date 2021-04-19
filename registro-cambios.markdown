@@ -58,9 +58,9 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## 2021.03.04
 ---
 ### Agregado
-- Control de paletas rendidas al finalizar viaje.
-- Control de paletas debitadas a transportistas al finalizar viaje.
-- Control de paletas con vales de recupero al finalizar viaje.
+- Control de paletas rendidas.
+- Control de paletas debitadas a transportistas.
+- Control de paletas con vales de recupero.
 - Pantalla de rendición de paletas en viajes iniciados o finalizados.
 - Manejo de vales de proveedor.
 - Nuevo tipo de retiro "Recupero de paletas" para manejo de retiros de recupero de paletas.
