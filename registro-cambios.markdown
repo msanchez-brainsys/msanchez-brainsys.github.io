@@ -45,15 +45,15 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - **`[desarrollo]`** Reporte impreso de cartas de devolución detallado.
 - **`[desarrollo]`** Reporte Excel de cartas de devolución.
 - **`[anulacion]`** Validación de anulación de comprobantes que salieron en al menos un viaje.
-- **`[bianchi]`** **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
-- **`[bianchi]`** **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
+- **`[desarrollo]`** **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
+- **`[desarrollo]`** **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
 
 ### Modificado
-- **`[bianchi]`** **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
-- **`[bianchi]`** **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
+- **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
+- **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
 
 ### Quitado
-- **`[bianchi]`** **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados.
+- **`[desarrollo]`** **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados.
 
 ## 2021.03.04
 ---
