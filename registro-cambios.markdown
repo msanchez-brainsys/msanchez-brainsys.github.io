@@ -79,6 +79,9 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - **`[Calico]`** Piso, departamento y teléfono de destino en reporte de ordenes de trabajo de Telecentro.
 - **`[Calico]`** Refactor de proceso de informe de líneas procesadas para Bianchi.
 
+### Corregido
+- Ingresos de vales de recepción con productos seriados desde importador Excel.
+
 ## 2021.02.12
 ---
 ### Agregado
