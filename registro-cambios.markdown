@@ -47,8 +47,10 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - **`[anulacion]`** Validación de anulación de comprobantes que salieron en al menos un viaje.
 - **`[desarrollo]`** **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
 - **`[desarrollo]`** **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
+- **`[desarrollo]`** **`[Calico]`** Proceso de creación de paradas en OptimoCamino con informe de series asociadas a vale de recepción para Telecentro.
 
 ### Modificado
+- **`[desarrollo]`** Mejora en importación de archivos Excel de gran tamaño.
 - **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
 - **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
 
@@ -85,19 +87,19 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 ## 2021.02.12
 ---
 ### Agregado
+- Columna con cliente y remitente en pantalla de ingreso de turnos.
+- Columna con cliente y remitente en pantalla de seguimiento de turnos.
 - **`[Plb]`** Tablero de seguimiento de turnos de carga.
 - **`[Plb]`** Tablero de seguimiento de turnos de descarga.
-- **`[Plb]`** Columna con cliente y remitente en pantalla de ingreso de turnos.
-- **`[Plb]`** Columna con cliente y remitente en pantalla de seguimiento de turnos.
 
 ### Modificado
+- Filtro por defecto con turnos activos en pantalla de ingreso de turnos.
+- Filtro por defecto con turnos activos en pantalla de seguimiento de turnos.
+- Estados de pedidos visualizados en pantalla de seguimiento turnos de carga.
+- Estados de vales de recepción visualizados en pantalla de seguimiento turnos de descarga.
 - **`[Calico]`** Asignación de fecha de conforme en tabla TMS_DetalleComprobante al conformar un comprobante pendiente de resolución.
 - **`[Calico]`** Asignación de fecha de entrega en tabla TMS_DetalleComprobante al almacenar un comprobante.
 - **`[Calico]`** Observación por defecto "Retira cliente" al conformar comprobantes recibidos.
-- **`[Plb]`** Filtro por defecto con turnos activos en pantalla de ingreso de turnos.
-- **`[Plb]`** Filtro por defecto con turnos activos en pantalla de seguimiento de turnos.
-- **`[Plb]`** Estados de pedidos visualizados en pantalla de seguimiento turnos de carga.
-- **`[Plb]`** Estados de vales de recepción visualizados en pantalla de seguimiento turnos de descarga.
 
 ### Corregido
 - Inicio de hojas de ruta no emitidas al iniciar viaje.
