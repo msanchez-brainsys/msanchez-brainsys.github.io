@@ -6,6 +6,8 @@ navegacion:
     - nombre: "Pendiente de liberación"
       link: "registro-cambios#pendiente-de-liberación"
   versiones:
+    - nombre: "2021.04.21"
+      link: "registro-cambios#20210421"
     - nombre: "2021.03.04"
       link: "registro-cambios#20210304"
     - nombre: "2021.02.12"
@@ -37,25 +39,28 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 
 ## Pendiente de liberación
 ---
+
+## 2021.04.21
+---
 ### Agregado
-- **`[desarrollo]`** Creación de cartas de devolución a partir de comprobantes almacenados.
-- **`[desarrollo]`** Anulación de cartas de devolución liberando comprobantes asociados.
-- **`[desarrollo]`** Reporte impreso de cartas de devolución.
-- **`[desarrollo]`** Reporte impreso de cartas de devolución resumido.
-- **`[desarrollo]`** Reporte impreso de cartas de devolución detallado.
-- **`[desarrollo]`** Reporte Excel de cartas de devolución.
-- **`[anulacion]`** Validación de anulación de comprobantes que salieron en al menos un viaje.
-- **`[desarrollo]`** **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
-- **`[desarrollo]`** **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
-- **`[desarrollo]`** **`[Calico]`** Proceso de creación de paradas en OptimoCamino con informe de series asociadas a vale de recepción para Telecentro.
+- Creación de cartas de devolución a partir de comprobantes almacenados.
+- Anulación de cartas de devolución liberando comprobantes asociados.
+- Reporte impreso de cartas de devolución.
+- Reporte impreso de cartas de devolución resumido.
+- Reporte impreso de cartas de devolución detallado.
+- Reporte Excel de cartas de devolución.
+- Validación de anulación de comprobantes que salieron en al menos un viaje.
+- **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
+- **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
+- **`[Calico]`** Proceso de creación de paradas en OptimoCamino con informe de series asociadas a vale de recepción para Telecentro.
 
 ### Modificado
-- **`[desarrollo]`** Mejora en importación de archivos Excel de gran tamaño.
-- **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
-- **`[desarrollo]`** **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
+- Mejora en importación de archivos Excel de gran tamaño.
+- **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
+- **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
 
 ### Quitado
-- **`[desarrollo]`** **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados.
+- **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados.
 
 ## 2021.03.04
 ---
