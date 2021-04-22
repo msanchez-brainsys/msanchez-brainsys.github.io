@@ -50,17 +50,17 @@ El formato esta basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.
 - Reporte impreso de cartas de devolución detallado.
 - Reporte Excel de cartas de devolución.
 - Validación de anulación de comprobantes que salieron en al menos un viaje.
-- **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas.
-- **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD.
+- **`[Calico]`** Registro de remito y cantidad procesada en tabla de líneas recibidas en interfaz de Bianchi.
+- **`[Calico]`** Actualización de estado de línea recibida según proceso en SAAD en interfaz de Bianchi.
 - **`[Calico]`** Proceso de creación de paradas en OptimoCamino con informe de series asociadas a vale de recepción para Telecentro.
 
 ### Modificado
 - Mejora en importación de archivos Excel de gran tamaño.
-- **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos.
-- **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos.
+- **`[Calico]`** Modificación de proceso de informe de líneas procesadas para que guarde solicitudes enviadas en base de datos en interfaz de Bianchi.
+- **`[Calico]`** Modificación de proceso de informe de líneas entregadas para que guarde solicitudes enviadas en base de datos en interfaz de Bianchi.
 
 ### Quitado
-- **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados.
+- **`[Calico]`** Procedimiento almacenado de generación de informes de pedidos procesados en interfaz de Bianchi.
 
 ## 2021.03.04
 ---
